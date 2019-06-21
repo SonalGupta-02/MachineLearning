@@ -3,6 +3,6 @@
 import numpy as np
 
 a=np.arange(100,200,5)[0:16]
-arr=a.reshape(8,2)
+arr=a[0:16].reshape(8,2)
 
 print(arr)
