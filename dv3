@@ -5,3 +5,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 df=pd.read_csv("http://13.234.66.67/summer19/datasets/bank.csv")
+df
+
+plt.bar(df.CreditScore,df.Age)
+
+plt.scatter(df.Age,df.Balance)
+
+plt.stackplot(df.Age,df.EstimatedSalary)
